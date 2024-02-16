@@ -1,6 +1,7 @@
 ---
 title: "Exploring Moroccan Real Estate: Trends and Price Predictions"
 seoTitle: "Exploring Moroccan Real Estate: Trends and Price Predictions"
+seoDescription: "Embark on a journey through the vibrant landscape of Moroccan real estate with Moroccan Data Scientists."
 datePublished: Fri Feb 16 2024 18:43:23 GMT+0000 (Coordinated Universal Time)
 cuid: clsozzyhz000c09l48u6g2mbb
 slug: exploring-moroccan-real-estate-trends-and-price-predictions
