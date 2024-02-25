@@ -40,17 +40,17 @@ Web scraping is the art of extracting data from websites, allowing us to collect
 
 In the dynamic world of real estate, having access to up-to-date and comprehensive data is crucial for making informed decisions. Web scraping empowers us to gather vast amounts of data efficiently, giving us a competitive edge in predicting real estate prices and understanding market trends.
 
-**Scraping Data from Mubawab with BeautifulSoup**
+**Scraping Data with BeautifulSoup**
 
-Our journey begins with [Mubawab](https://www.mubawab.ma/), a prominent real estate website in Morocco, brimming with valuable listings and insights. Using the Python library BeautifulSoup, we embark on our quest to extract data from Mubawab with precision and finesse.
+Our journey begins with a prominent real estate website in Morocco, brimming with valuable listings and insights. Using the Python library BeautifulSoup, we embark on our quest to extract data from it with precision and finesse.
 
 **The Process**:
 
-*Exploration*: We start by inspecting the structure of the Mubawab website, identifying the key elements containing the data we seek – from property listings to pricing information.
+*Exploration*: We start by inspecting the structure of the website, identifying the key elements containing the data we seek – from property listings to pricing information.
 
 *Scripting*: Armed with our knowledge of HTML and CSS, we craft Python scripts leveraging BeautifulSoup to navigate through the website's code and extract the desired data.
 
-*Extraction*: With surgical precision, our scripts traverse through the pages of Mubawab, capturing essential details such as property names, prices, locations, area, and more.
+*Extraction*: With surgical precision, our scripts traverse through the pages of the website, capturing essential details such as property names, prices, locations, area, and more.
 
 *Aggregation:* As the data flows in, we gather and organize it into structured formats such as Excel spreadsheets, ready for further analysis and processing.
 
@@ -62,8 +62,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from urllib.parse import urlparse, urljoin
 
-# Define the base URL of Mubawab
-baseurl = 'https://www.mubawab.ma/'
+# Define the base URL
+baseurl = 'https://www.mu.ma/'
 
 # Set to store unique product links
 product_links = set()
@@ -71,7 +71,7 @@ product_links = set()
 # Loop through multiple pages of apartment listings
 for page_num in range(1, 3):
     # Make a GET request to the page
-    r = requests.get(f'https://www.mubawab.ma/fr/sc/appartements-a-vendre:p:{page_num}')
+    r = requests.get(f'https://www.mu.ma/fr/sc/appartements-a-vendre:p:{page_num}')
     soup = BeautifulSoup(r.content, 'html.parser')
 
    # Extract listings from the page
@@ -106,10 +106,10 @@ for link in product_links:
 
 # Convert scraped data to DataFrame and save to Excel
 df = pd.DataFrame(scraped_data)
-df.to_excel('mubawab_data.xlsx', index=False)
+df.to_excel('scraped_data.xlsx', index=False)
 ```
 
-With web scraping as our trusty pickaxe, we delve into the digital mines of Mubawab, extracting nuggets of real estate data to fuel our predictive models and illuminate the path to informed decision-making. Let the data adventure begin! 🏠💻
+With web scraping as our trusty pickaxe, we delve into the digital mines of the website, extracting nuggets of real estate data to fuel our predictive models and illuminate the path to informed decision-making. Let the data adventure begin! 🏠💻
 
 # [Data Cleaning](https://hashnode.com/draft/65bccc56d821d9fd24722c81#heading-datascleaning)
 
@@ -131,7 +131,7 @@ Standardizing Data Types: Inconsistent data types can impede our ability to perf
 
 # Load the scraped data after some cleaning with VBA Macros
 
-df = pd.read_excel('mubawab_data.xlsx')
+df = pd.read_excel('scraped_data.xlsx')
 
 # Remove duplicate rows
 
