@@ -7,6 +7,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713461794578/a5add03
 
 ---
 
+## Introduction
+
+In the vibrant landscape of data science and community-driven initiatives, the [MDS](https://moroccands.com/) community stands as a beacon of innovation and collaboration. Founded by @[Bahae Eddine Halim](@bahae) , the [MDS](https://moroccands.com/) community has brought together a diverse group of passionate individuals, united by their shared commitment to leveraging data science for societal impact.
+
+In this article, we delve into one of the latest endeavors spearheaded by the [MDS](https://moroccands.com/) community, a groundbreaking project aimed at analyzing Moroccan online discourse during Ramadan. With the collective efforts of @[Bahae Eddine Halim](@bahae) ,@[Loubna Bouljadiane](@loubna264) , @[SOUFIANE SEJJARI](@sejjariMail) ,@[Zineb El houz](@zinebelhz) ,@[Ali](@ali55) ,@[Hiba Lbazry](@hibalb21), and @[Imad Nasri](@Imad1) , this project embarks on a journey to uncover insights from the vast sea of Moroccan Darija comments and tweets.
+
+At its core, the main objective of this project is to harness the power of data science, machine learning, and deep learning to decode the sentiments, topics, and engagement patterns prevalent in Moroccan online conversations during the sacred month of Ramadan. Through meticulous analysis and cutting-edge methodologies, we aim to shed light on the nuanced perspectives and cultural dynamics shaping Moroccan society in the digital age.
+
 > Explore the world of Ramadan comments in Moroccan Darija through EDA, uncovering patterns, trends, and insights from social media platforms like Facebook, Twitter, Hespress, and YouTube. Discover the prevalence of religious themes, temporal engagement patterns, language distribution, topic modeling results, and comment length analysis across different platforms. Gain valuable insights into online discourse during Ramadan and the significance of EDA in extracting meaningful insights from diverse datasets.
 
 # Data Scraping
@@ -1162,3 +1170,35 @@ In contrast, comments categorized under the Religion and Ramadan topic exhibit a
     
 
 **In conclusion, this comprehensive exploration of comment data during Ramadan sheds light on various aspects of online discourse during this sacred month. Through techniques such as word frequency analysis, temporal trend exploration, language distribution analysis, topic modeling, and time series analysis, we've gained valuable insights into the patterns, themes, and dynamics of comments before and after Iftar. This analysis not only enhances our understanding of online engagement during Ramadan but also underscores the importance of Exploratory Data Analysis (EDA) in uncovering meaningful insights from complex datasets. As we continue to delve deeper into data analysis, it's crucial to leverage these techniques to derive actionable insights that can inform decision-making and deepen our understanding of societal trends and behaviors.**
+
+## **Machine Learning and Deep Learning models**
+
+In our project, we harness the power of machine learning (ML) and deep learning (DL) to unlock valuable insights from Moroccan Darija comments and tweets. Our approach involves leveraging a variety of ML and DL models to tackle different aspects of the data analysis process.
+
+**Clustering Models for Topic Segmentation**
+
+To uncover underlying themes and topics within the dataset, we utilize clustering models. These models group similar comments and tweets together based on their content, allowing us to identify distinct topics of discussion within the Moroccan online community. By applying clustering techniques, we gain a deeper understanding of the diverse range of subjects that are relevant to Moroccan users.
+
+### **Next Word Prediction Model**
+
+Another crucial aspect of our project is the development of a next word prediction model. This model predicts the most probable word to follow a given sequence of words, taking into account the context of the conversation. By accurately predicting the next word, we enhance the coherence and fluency of generated text, improving the overall quality of our analysis and insights.
+
+**Models Available on Hugging Face via the Link Below**
+
+%[https://huggingface.co/spaces/Soufianesejjari/MDS_RamadanWordPrediction] 
+
+### **DARIJABERT: Sentiment Prediction Model**
+
+One of the highlights of our project is the implementation of DARIJABERT, a specialized sentiment prediction model trained on Moroccan Darija data. Inspired by state-of-the-art language models like BERT, DARIJABERT excels in understanding and predicting sentiment in Moroccan Darija comments and tweets. By leveraging deep learning techniques, DARIJABERT enables us to accurately assess the sentiment expressed in online discussions, providing valuable insights into the attitudes and opinions of Moroccan users.
+
+%[https://colab.research.google.com/drive/149c_0NQJcLtKdVDZsZ2UiFidMwnpSPB6?usp=sharing] 
+
+**Conclusion**
+
+Through the application of ML and DL models, we are able to delve deep into the world of Moroccan online discourse, uncovering hidden patterns, sentiments, and topics of interest. These advanced techniques empower us to extract meaningful insights from vast amounts of data, ultimately enhancing our understanding of Moroccan culture, society, and online behavior.
+
+## Conclusion
+
+As we conclude this chapter, we are reminded of the transformative potential of collaborative endeavors like those championed by the [MDS](https://moroccands.com/) community. By harnessing the power of data and technology, we not only gain insights into societal trends and cultural expressions but also pave the way for informed decision-making, community engagement, and positive social change.
+
+As we look towards the future, let us continue to embrace the spirit of collaboration, curiosity, and inclusivity that defines the [MDS](https://moroccands.com/) community. Together, we will continue to explore, innovate, and inspire, shaping a brighter tomorrow through the lens of data science and community-driven initiatives.
