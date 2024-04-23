@@ -15,6 +15,8 @@ In this article, we delve into one of the latest endeavors spearheaded by the [M
 
 At its core, the main objective of this project is to harness the power of data science, machine learning, and deep learning to decode the sentiments, topics, and engagement patterns prevalent in Moroccan online conversations during the sacred month of Ramadan. Through meticulous analysis and cutting-edge methodologies, we aim to shed light on the nuanced perspectives and cultural dynamics shaping Moroccan society in the digital age.
 
+**Explore a preview of our project :** [https://moroccansentimentsanalysis.com](https://moroccansentimentsanalysis.netlify.app/)
+
 > Explore the world of Ramadan comments in Moroccan Darija through EDA, uncovering patterns, trends, and insights from social media platforms like Facebook, Twitter, Hespress, and YouTube. Discover the prevalence of religious themes, temporal engagement patterns, language distribution, topic modeling results, and comment length analysis across different platforms. Gain valuable insights into online discourse during Ramadan and the significance of EDA in extracting meaningful insights from diverse datasets.
 
 # Data Scraping
@@ -1202,3 +1204,5 @@ Through the application of ML and DL models, we are able to delve deep into the 
 As we conclude this chapter, we are reminded of the transformative potential of collaborative endeavors like those championed by the [MDS](https://moroccands.com/) community. By harnessing the power of data and technology, we not only gain insights into societal trends and cultural expressions but also pave the way for informed decision-making, community engagement, and positive social change.
 
 As we look towards the future, let us continue to embrace the spirit of collaboration, curiosity, and inclusivity that defines the [MDS](https://moroccands.com/) community. Together, we will continue to explore, innovate, and inspire, shaping a brighter tomorrow through the lens of data science and community-driven initiatives.
+
+**Explore a preview of our project :** [https://moroccansentimentsanalysis.com](https://moroccansentimentsanalysis.netlify.app/)
