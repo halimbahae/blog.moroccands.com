@@ -341,7 +341,7 @@ I also want to acknowledge [**Bahae Eddine HALIM**](https://www.linkedin.com/in/
 
 > [**HuggingFace**](https://huggingface.co/spaces/MoroccanDS/Moroccan-Agri-Leaf-Pest-Detection)
 > 
-> [**Github**](https://huggingface.co/spaces/MoroccanDS/Moroccan-Agri-Leaf-Pest-Detection)
+> [**Github**](https://github.com/Moroccan-Data-Scientists/Management-System-for-Moroccan-Agriculture-)
 
 You may connect with me [**Linkedin**](https://www.linkedin.com/in/asmae-el-ghezzaz/) also follow me.
 
